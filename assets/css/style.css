@@ -180,9 +180,10 @@ html {
     position: relative;
     margin-top: 60px;
     padding-top: 50%;
-    /* background: url("/assets/Images/slider/slider4.jpg");
-    background-repeat: no-repeat; */
-    background: url("/assets/Images/slider/slider4.jpg") top center / cover no-repeat;
+    /* background: url("/assets/Images/slider/slider4.jpg"); */
+    background-repeat: no-repeat;
+    background: url('/assets/Images/slider/slider4.jpg');
+    background-size: contain;
 }
 
 #slider .text-content{
