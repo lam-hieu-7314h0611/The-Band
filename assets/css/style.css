@@ -180,7 +180,7 @@ html {
     position: relative;
     margin-top: 60px;
     padding-top: 50%;
-    background: url('/assets/Images/slider/sliderblackpink.jpg') top center / cover no-repeat;
+    background: url("./assets/Images/slider/sliderblackpink.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content{
