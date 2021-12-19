@@ -181,7 +181,7 @@ html {
     margin-top: 60px;
     padding-top: 50%;
     /* background: url("/assets/Images/slider/slider4.jpg"); */
-    background: url("https://compass-media.vogue.it/photos/5efe12000e8118b5beb488c0/4:3/w_3447,h_2585,c_limit/BlackPink.jpg");
+    background-image: url("/assets/Images/slider/slider5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
