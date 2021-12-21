@@ -181,7 +181,7 @@ html {
     margin-top: 60px;
     padding-top: 50%;
     /* background: url("/assets/Images/slider/slider4.jpg"); */
-    background-image: url('/assets/Images/slider/slider5.jpg');
+    background-image: url('assets/Images/slider/slider5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
