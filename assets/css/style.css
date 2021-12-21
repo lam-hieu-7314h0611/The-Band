@@ -176,12 +176,12 @@ html {
     font-size: 25px;  
 }
 
-#slider{
+#slider {
     position: relative;
     margin-top: 60px;
     padding-top: 50%;
     /* background: url("/assets/Images/slider/slider4.jpg"); */
-    background-image: url("/assets/img/slider/slider5.JPG");
+    background-image: url(../img/slider/slider1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
