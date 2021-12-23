@@ -26,3 +26,39 @@ modal.addEventListener('click', hideBuyTickets)
 modalContainer.addEventListener('click', function (event) {
     event.stopPropagation()
 })
+
+//> xử lý menu icon respon
+var header = document.getElementById('header');
+var mobileHeader = document.getElementById('mobile-menu');
+//header.clientHeight (height = 46, 48, or 50) thay đổi thì đảm bảo giá trị vẫn được lưu vào headerHeight
+var headerHeight = header.clientHeight;
+
+//đóng mở mobile menu
+mobileHeader.onclick = function () {
+    var isClosed = header.clientHeight === headerHeight;
+    if (isClosed) {
+        header.style.height = 'auto';
+
+    } else {
+        header.style.height = null;
+
+    }
+}
+
+//tự động đóng khi chọn menu
+var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+for (var i = 0; i < menuItems.length; i++) {
+    var menuItem = menuItems[i];
+
+    menuItem.onclick = function (event) {
+        //khi click vào bất kì thẻ a nào, thì this trả lại chính thẻ a đó
+        var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+        if (isParentMenu) {
+            // bỏ qua mặc định
+            event.preventDefault();
+        } else {
+            header.style.height = null;
+        }
+
+    }
+}
