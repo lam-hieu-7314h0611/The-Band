@@ -107,7 +107,8 @@
 
     /* responsive for member */
     #content .member-img {
-        width: 60%;
+        height: 250px;
+        width: 170px;
     }
 
     .contact-form {
