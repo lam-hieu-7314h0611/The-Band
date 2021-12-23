@@ -204,8 +204,7 @@ html {
     position: relative;
     margin-top: 60px;
     padding-top: 50%;
-    /* background: url("/assets/Images/slider/slider4.jpg"); */
-    background-image: url(../img/slider/slider1.jpg);
+    background-image: url(../img/slider/slider5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -229,6 +228,7 @@ html {
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 1px #000;
 
 }
 
@@ -393,6 +393,9 @@ html {
     justify-self: center;
     border: none;
     font-size: 15px;
+    /* nếu trên mobile bị lỗi thì fix */
+    /* appearance: none;
+    -webkit-appearance: none; */
 }
 
 .place-buy-btn:hover{
@@ -584,6 +587,7 @@ html {
 
 #footer .list-socials {
     font-size: 25px;
+    
 }
 
 #footer .list-socials a {

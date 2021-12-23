@@ -5,13 +5,13 @@
 */
 
 /* PC */
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     
 
 }
 
 /* TABLET & MOBILE */
-@media (max-width: 1024px) {
+@media (max-width: 63.9375em) {
     .place-buy-btn {
         padding: 11px 16px;
     }
@@ -22,12 +22,18 @@
 
     .contact-form .form-control {
         padding: 15px;
+        font-size: 16px;
     }
 
     .contact-infor {
         line-height: 2;
 
     }
+
+    .contact-submit-btn {
+        font-size: 16px;
+    }
+
     .list-socials {
         font-size: 48px;
     }
@@ -43,13 +49,13 @@
 }
 
 /*  TABLET */
-@media (min-width: 740PX) and (max-width: 1024px) {
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
     
 
 }
 
 /* MOBILE */
-@media (max-width: 740px) {
+@media (max-width: 46.1875em) {
     .s-full-width,
     .s-col-full {
         width: 100% !important;
